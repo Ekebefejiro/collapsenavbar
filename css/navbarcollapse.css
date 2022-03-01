@@ -1,0 +1,94 @@
+header{
+    background-color: purple;
+    }
+    header h1, header h2{
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+    }
+  header h1{
+        padding:0.7rem 0 0 0;
+        font-size: 2.0rem;
+    }
+    header h2{
+        padding: .3rem 0 0 0;
+        font-size: 1.2rem;
+    }
+    main h1{
+        padding-top:1rem;
+       padding-bottom: 1rem;
+        font-size: 2.2rem;
+        font-weight: 300;
+        text-align: center; 
+    }
+   
+    header img{
+        float: left;
+        height:85px;
+    }
+
+    .navbar, .navbar-inverse{
+        border-radius:4px;;
+        border: none;
+    }
+    .nav li a{
+        color:black;
+    }
+     .navbar-inverse .navbar-nav > li > a{
+         color:black;
+         font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', 'sans-serif';
+         font-size: 1.2rem;
+         font-weight:300;
+         display:inline-block;
+     }
+         .navbar-nav > li{
+         padding-left:28px;
+         padding-right:28px;
+        
+     }
+     .navbar-inverse .navbar-nav li a:hover{
+         background-color:burlywood;
+         transition: 0.9s all linear;
+     }
+     .navbar .navbar-toggler-icon{
+         background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger7.svg?color= #e6774f');
+         border-radius:2px;
+    }
+    .card{
+        margin-bottom:10px!important;
+    }
+    footer{
+        background-color: purple;
+        }
+        footer h2{
+            margin-left:25px;
+            padding:.5rem 0 0 0;
+            font-size: 1.2rem;
+            color: seashell;
+        }
+        footer img{
+            height:85px;
+        
+        }
+        footer li{
+            list-style-type: none;
+            color: snow;
+        }
+    
+        footer a{
+            text-decoration: none;
+            color:rgb(161, 141, 141) ;
+        }
+        footer p{
+            font-style: italic;
+        }
+        .bg-light{
+            background-color:teal !important;
+        }
+        .btn{
+        background-color:teal!important;
+        white-space:normal !important;
+
+        }
+    
